@@ -2,41 +2,45 @@
   <img src="./assets/banner.svg" alt="Awesome Marketing Automation and Personalization Banner" width="100%">
 </p>
 
-# Awesome Marketing Automation & Personalization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Marketing Automation & Personalization 🚀 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-> A curated list of top **Marketing Automation platforms**, **Personalization engines**, and **Customer Data Platforms (CDP)** — spanning enterprise SaaS solutions and self-hosted open-source software for orchestrating multi-channel customer journeys, behavioral segmentation, and real-time hyper-personalization.
+> 🌟 A curated list of top **Marketing Automation platforms**, **Personalization engines**, and **Customer Data Platforms (CDP)** — spanning enterprise SaaS solutions and self-hosted open-source software for orchestrating multi-channel customer journeys, behavioral segmentation, and real-time hyper-personalization. 🎯
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Marketing-Automation-Personalization?style=social)](https://github.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/stargazers)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 ---
 
-## 📋 Table of Contents
+## 📋 Table of Contents 📑
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-- [Feature Comparison Matrix](#-feature-comparison-matrix)
-- [Key Selection Criteria](#-key-selection-criteria)
-- [Contributing](#-contributing)
-- [License](#-license)
-
----
-
-## 📈 Sector Overview & Market Dynamics
-
-The global marketing automation software market is valued at approximately **$7.2B to $8.1B** and is projected to surpass **$20B by 2034**, growing at an estimated **12.0% CAGR** driven by AI-powered hyper-personalization, omnichannel orchestration, and customer data platform (CDP) convergence.
-
-Market concentration follows a **moderately fragmented** structure: an enterprise core of cloud giants (Adobe, HubSpot, Salesforce, Oracle) captures nearly 45–50% of top-tier enterprise revenues, while a vibrant, fragmented long tail of specialized e-commerce tools, developer-first platforms, and privacy-focused open-source frameworks commands the rest of the market.
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🎯 Key Selection Criteria](#-key-selection-criteria)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📈 Sector Overview & Market Dynamics 🌐
 
-The table below lists leading commercial marketing automation and personalization platforms, sorted in descending order by company scale (market capitalization / acquisition valuation / ARR).
+The global marketing automation software market is valued at approximately **$7.2B to $8.1B** and is projected to surpass **$20B by 2034**, growing at an estimated **12.0% CAGR** driven by AI-powered hyper-personalization, omnichannel orchestration, and customer data platform (CDP) convergence. 🚀
 
-| Platform | Type & Focus | Scale (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits |
+Market concentration follows a **moderately fragmented** structure 📊: an enterprise core of cloud giants (Adobe, HubSpot, Salesforce, Oracle) captures nearly 45–50% of top-tier enterprise revenues, while a vibrant, fragmented long tail of specialized e-commerce tools, developer-first platforms, and privacy-focused open-source frameworks commands the rest of the market. 🧩
+
+---
+
+## 🟦 SaaS / Hosted Platforms ☁️
+
+The table below lists leading commercial marketing automation and personalization platforms, sorted in descending order by company scale (market capitalization / acquisition valuation / ARR). 💼
+
+| Platform 🏢 | Type & Focus 🎯 | Scale (Valuation / Revenue) 💰 | Starting Pricing 🏷️ | Free Tier / Trial Limits ⏱️ |
 |:---|:---|:---:|:---:|:---|
 | **[Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)** | Enterprise B2B marketing automation & lead nurturing (Adobe) | **$94.6B+** Mkt Cap (Adobe parent) / acquired at **$4.75B** | ~$1,200/mo (Select tier; billed annually via sales quote) | **No free tier**; No self-serve trial (custom enterprise demo only upon sales qualification) |
 | **[HubSpot Marketing Hub](https://www.hubspot.com/products/marketing)** | Inbound marketing, email marketing & CRM suite | **~$10.6B** Mkt Cap / **$2.6B+** ARR | $15/mo/seat (Starter, billed annually) or $20/mo month-to-month | **Free forever plan** (up to 1,000 contacts, 2 CRM seats, forms, live chat & 1 email automation/form; HubSpot-branded); 14-day free trial on Pro/Enterprise |
@@ -47,11 +51,11 @@ The table below lists leading commercial marketing automation and personalizatio
 
 ---
 
-## 🟩 Open-Source Software
+## 🟩 Open-Source Software 🔓
 
-Self-hosted, privacy-first, and community-driven tools for marketing automation, customer data platforms (CDP), web personalization, and transaction/campaign messaging. Sorted by GitHub community star count (descending).
+Self-hosted, privacy-first, and community-driven tools for marketing automation, customer data platforms (CDP), web personalization, and transaction/campaign messaging. Sorted by GitHub community star count (descending). 🌟
 
-| Project | GitHub Stars | Primary Focus & Capabilities | Tech Stack | License |
+| Project 🛠️ | GitHub Stars ⭐ | Primary Focus & Capabilities 🎯 | Tech Stack 💻 | License 📜 |
 |:---|:---:|:---|:---|:---|
 | **[Twenty](https://twenty.com)** ([GitHub](https://github.com/twentyhq/twenty)) | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Open-source CRM & customer relationship orchestration alternative to Salesforce; custom objects, workflow triggers, and segmentation. | TypeScript, NestJS, React, PostgreSQL | AGPL-3.0 |
 | **[Novu](https://novu.co)** ([GitHub](https://github.com/novuhq/novu)) | [![Novu Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | Open-source notification infrastructure and customer communication engine across Email, SMS, In-App, Chat, and Web Push. | TypeScript, Node.js, React, Redis, MongoDB | MIT |
@@ -70,9 +74,9 @@ Self-hosted, privacy-first, and community-driven tools for marketing automation,
 
 ---
 
-## 📊 Feature Comparison Matrix
+## 📊 Feature Comparison Matrix 🔍
 
-| Solution | Deployment | Multi-Channel Support | Visual Journey Canvas | Real-Time CDP / Identity | Behavioral Personalization | Best Fit |
+| Solution 🛠️ | Deployment 🚀 | Multi-Channel Support 📱 | Visual Journey Canvas 🗺️ | Real-Time CDP / Identity 👤 | Behavioral Personalization 🎯 | Best Fit 💡 |
 |:---|:---:|:---:|:---:|:---:|:---:|:---|
 | **Marketo Engage** | Cloud (SaaS) | Email, Web, Mobile, Social | ✅ Yes | ✅ Enterprise | ✅ Lead Scoring / Dynamic Content | B2B Enterprise ABM & Long Sales Cycles |
 | **HubSpot** | Cloud (SaaS) | Email, SMS, Web, Social, Chat | ✅ Yes | ✅ Integrated CRM | ✅ Smart Content Rules | Scaling SMBs & Inbound Growth Teams |
@@ -94,24 +98,42 @@ Self-hosted, privacy-first, and community-driven tools for marketing automation,
 
 ---
 
-## 🎯 Key Selection Criteria
+## 🎯 Key Selection Criteria ⚖️
 
 When selecting between commercial SaaS platforms and open-source stacks, evaluate the following tradeoffs:
 
-1. **Total Cost of Ownership (TCO) vs. Engineering Overhead**:
+1. **Total Cost of Ownership (TCO) vs. Engineering Overhead** 💵:
    - SaaS solutions charge steeply per active profile or Monthly Active User (e.g., $1,000s/mo as contacts cross 100k+).
    - Open-source platforms eliminate contact caps and seat licenses, but require server infrastructure, database maintenance, bounce/spam IP reputation warming, and reliable worker queues (e.g., cron workers in Mautic or Temporal engines in Helio).
 
-2. **Data Privacy & Regulatory Sovereignty (GDPR / HIPAA / CCPA)**:
+2. **Data Privacy & Regulatory Sovereignty (GDPR / HIPAA / CCPA)** 🛡️:
    - Self-hosted options (Mautic, Tracardi, Apache Unomi, RudderStack) allow sensitive user data to remain strictly within your sovereign Virtual Private Cloud (VPC) or on-premise infrastructure.
 
-3. **Developer-First Integration vs. Marketer-First UI**:
+3. **Developer-First Integration vs. Marketer-First UI** 💻:
    - Marketer-led organizations typically prefer drag-and-drop, visual journey builders with pre-packaged integrations (HubSpot, ActiveCampaign, Klaviyo, Mautic).
    - Product and engineering teams often prefer code-first, API-driven engines with version-controlled templates and Git workflows (Novu, Dittofeed, Plunk).
 
 ---
 
-## 🤝 Contributing
+## 💖 Support & Sponsorship ☕
+
+Thank you so much for using and exploring this curated list! Maintaining and updating these resources takes continuous research and effort. 
+
+If you find this repository helpful, please consider supporting the project:
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** it and submit contributions, tools, or updates.
+- 📢 **Share** it with your marketing, engineering, and product teams.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support the ongoing maintenance directly, please visit the [**GitHub Sponsors Dashboard**](https://github.com/sponsors/ishandutta2007). Your support is immensely appreciated! ❤️
+
+---
+
+## 📈 Star History ⭐
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Marketing-Automation-Personalization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Marketing-Automation-Personalization&type=date&legend=top-left)
+
+---
+
+## 🤝 Contributing 🤝
 
 Contributions are very welcome! If you know of an outstanding open-source Marketing Automation tool, Personalization engine, or Customer Data Platform that should be included:
 
@@ -121,7 +143,7 @@ Contributions are very welcome! If you know of an outstanding open-source Market
 
 ---
 
-## 📄 License
+## 📄 License 📜
 
 This repository and curated list are licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) (Public Domain Dedication). Individual software platforms retain their own proprietary or open-source licenses.
 
