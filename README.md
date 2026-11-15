@@ -1,173 +1,132 @@
-# Awesome-Marketing-Automation-Personalization
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Marketing Automation and Personalization Banner" width="100%">
+</p>
 
-# Awesome Marketing Automation & Personalization
+# Awesome Marketing Automation & Personalization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of top Marketing Automation and Personalization platforms — both SaaS/Hosted commercial solutions and open-source alternatives for automating campaigns, segmenting audiences, and delivering personalized experiences.
-> 🌟 Star this repo if you find it useful! 🌟
+> A curated list of top **Marketing Automation platforms**, **Personalization engines**, and **Customer Data Platforms (CDP)** — spanning enterprise SaaS solutions and self-hosted open-source software for orchestrating multi-channel customer journeys, behavioral segmentation, and real-time hyper-personalization.
+
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Marketing-Automation-Personalization?style=social)](https://github.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/stargazers)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [HubSpot Marketing Hub](#hubspot-marketing-hub)
-  - [ActiveCampaign](#activecampaign)
-  - [Marketo Engage](#marketo-engage)
-  - [Klaviyo](#klaviyo)
-  - [Braze](#braze)
-  - [CleverTap](#clevertap)
 - [Open-Source Software](#-open-source-software)
-  - [Mautic](#mautic)
-  - [Dittofeed](#dittofeed)
-  - [Helio](#helio)
-  - [Tracardi](#tracardi)
-  - [LEO CDP](#leo-cdp)
-  - [Apache Unomi](#apache-unomi)
-  - [Listmonk](#listmonk)
+- [Feature Comparison Matrix](#-feature-comparison-matrix)
+- [Key Selection Criteria](#-key-selection-criteria)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global marketing automation software market is valued at approximately **$7.2B to $8.1B** and is projected to surpass **$20B by 2034**, growing at an estimated **12.0% CAGR** driven by AI-powered hyper-personalization, omnichannel orchestration, and customer data platform (CDP) convergence.
+
+Market concentration follows a **moderately fragmented** structure: an enterprise core of cloud giants (Adobe, HubSpot, Salesforce, Oracle) captures nearly 45–50% of top-tier enterprise revenues, while a vibrant, fragmented long tail of specialized e-commerce tools, developer-first platforms, and privacy-focused open-source frameworks commands the rest of the market.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Marketing Automation and Personalization platforms. These are not open-source but are included as reference points for feature comparison.
+The table below lists leading commercial marketing automation and personalization platforms, sorted in descending order by company scale (market capitalization / acquisition valuation / ARR).
 
-### HubSpot Marketing Hub
-**Type:** All-in-one marketing platform with CRM integration
-HubSpot Marketing Hub provides email marketing, social media, landing pages, forms, automation workflows, and analytics, tightly integrated with HubSpot CRM. It is the natural choice for organizations already using HubSpot, with a free tier for basic email marketing and paid tiers scaling by contacts and features.
-
-### ActiveCampaign
-**Type:** Marketing automation with integrated CRM
-ActiveCampaign combines email marketing, marketing automation, and a lightweight CRM, known for automation depth relative to price. It supports email, SMS, and site messaging, with pricing starting at $15/month for the Starter plan and scaling by contacts.
-
-### Marketo Engage
-**Type:** Enterprise marketing automation within Adobe
-Marketo Engage (Adobe) provides sophisticated B2B marketing automation with lead scoring, multi-touch attribution, account-based marketing, and complex campaign orchestration. It is positioned for large enterprises with complex B2B sales cycles, with pricing that targets enterprise budgets.
-
-### Klaviyo
-**Type:** E-commerce marketing automation
-Klaviyo specializes in email and SMS marketing for e-commerce, with deep integrations into Shopify, WooCommerce, and BigCommerce for behavioral triggers and segmentation. It is positioned for DTC brands wanting revenue-attributed campaigns, with pricing scaling by contacts.
-
-### Braze
-**Type:** Enterprise cross-channel customer engagement platform
-Braze is consistently positioned as a Leader in Gartner's Magic Quadrant for Multichannel Marketing Hubs, alongside Adobe, Salesforce, and SAP. It provides journey orchestration, cross-channel messaging (email, push, SMS, in-app, webhooks), and real-time segmentation, with a strong focus on mobile-first engagement. Pricing is enterprise-quoted and scales with monthly active users.
-
-### CleverTap
-**Type:** Mobile-first engagement and retention platform
-CleverTap is included in Gartner's Magic Quadrant and the QKS SPARK Matrix for Multichannel Marketing Hubs. It focuses on mobile app engagement, with push notifications, in-app messages, and retention analytics. Positioned for consumer apps with large mobile user bases.
+| Platform | Type & Focus | Scale (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits |
+|:---|:---|:---:|:---:|:---|
+| **[Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)** | Enterprise B2B marketing automation & lead nurturing (Adobe) | **$94.6B+** Mkt Cap (Adobe parent) / acquired at **$4.75B** | ~$1,200/mo (Select tier; billed annually via sales quote) | **No free tier**; No self-serve trial (custom enterprise demo only upon sales qualification) |
+| **[HubSpot Marketing Hub](https://www.hubspot.com/products/marketing)** | Inbound marketing, email marketing & CRM suite | **~$10.6B** Mkt Cap / **$2.6B+** ARR | $15/mo/seat (Starter, billed annually) or $20/mo month-to-month | **Free forever plan** (up to 1,000 contacts, 2 CRM seats, forms, live chat & 1 email automation/form; HubSpot-branded); 14-day free trial on Pro/Enterprise |
+| **[Klaviyo](https://www.klaviyo.com/)** | E-commerce email & SMS automation | **~$6.0B** Mkt Cap / **$1.47B** ARR | $20/mo (paid tier starts at 500 profiles) | **Free forever plan** (up to 250 profiles, 500 email sends/month, $5 SMS credits, email support for 60 days; Klaviyo badge required) |
+| **[Braze](https://www.braze.com/)** | Mobile-first & cross-channel customer engagement | **~$5.3B** Mkt Cap / **$1.0B** ARR | ~$4,000–$5,000/mo (~$50,000/yr minimum annual sales contract) | **No free tier**; 14-day free trial available for pre-built templates, workflows, and no-code tools (no credit card required) |
+| **[ActiveCampaign](https://www.activecampaign.com/)** | SMB & mid-market automation, email marketing & CRM | **~$3.0B** Valuation (Series C) / **~$250M** ARR | $15/mo (Starter plan, 1 user, 1,000 contacts, billed annually) | **No free tier**; 14-day free trial (1 user, capped at 100 contacts and 100 email sends, no credit card required) |
+| **[CleverTap](https://clevertap.com/)** | Mobile app engagement, push notifications & analytics | **~$775M** Valuation (Series D) / **~$145M+** ARR | $85/mo (Core self-serve plan, up to 5,000 Monthly Active Users) | **No free tier**; 30-day free trial (self-serve Core plan access with full sandbox demo environment) |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Marketing Automation and Personalization tools. The open-source ecosystem spans **mature marketing automation platforms**, **modern developer-friendly engagement suites**, **AI-native growth platforms**, **composable CDP engines**, and **real-time personalization infrastructure**.
+Self-hosted, privacy-first, and community-driven tools for marketing automation, customer data platforms (CDP), web personalization, and transaction/campaign messaging. Sorted by GitHub community star count (descending).
 
-### Mautic
-**Stack:** PHP / MySQL | **License:** GPL-3.0
-Mautic is the world's largest open-source marketing automation project, explicitly positioned for data sovereignty and privacy . Key capabilities include:
-- **Multi-channel marketing**: email, SMS, app or browser notifications out of the box, with more channels via plugins
-- **Visual campaign builder**: drag-and-drop journey orchestration with conditional logic
-- **Lead management**: scoring, stages, and behavioral tracking
-- **GDPR compliance**: consent management, data erasure, and audit logs
-- **Unlimited users**: no per-seat pricing
-- **REST API** for CRM integration
-- **Self-hosted** with full data control
-
-**Critical deployment detail:** A dedicated cron worker is required for campaigns and scheduled emails to actually fire—the most common failure in self-hosted Mautic deployments. Mautic is a direct alternative to HubSpot, ActiveCampaign, and Mailchimp, with no per-contact pricing [citation:2][citation:10].
-**Best for:** Organizations wanting a proven, privacy-focused marketing automation platform with full data ownership and no per-user fees, accepting the PHP/MySQL deployment and cron configuration.
-
-### Dittofeed
-**Stack:** TypeScript / Node.js | **License:** Open Source (core)
-Dittofeed is an open-source customer engagement platform offering low-code tools for message automation across multiple channels, including powerful segmentation and personalization features [citation:2][citation:10]. It is positioned as a modern, developer-friendly alternative to commercial engagement platforms, with a focus on event-triggered journeys and user segmentation.
-**Best for:** Developer teams wanting a modern, TypeScript-based engagement platform with git workflows and CI testing, accepting the self-hosted deployment.
-
-### Helio
-**Stack:** TypeScript / Temporal / PostgreSQL / ClickHouse | **License:** AGPL-3.0
-Helio is an open-source, AI-native growth platform combining a CDP, visual journey orchestration, and multi-channel delivery [citation:9]. Key capabilities include:
-- **Multi-channel**: email, SMS (Twilio), WhatsApp (Cloud API), web push, and in-app messages
-- **Visual journey builder**: React Flow canvas compiled to a validated DAG, with durable execution via Temporal
-- **AI copilot**: describe a segment, journey, or email in a sentence and get a working draft
-- **Bring your own AI**: OpenAI, Anthropic, Groq, NVIDIA NIM, or local Ollama
-- **MCP server**: exposes capabilities as tools for external AI agents
-- **Predictive lead scoring & churn**: with per-workspace conversion events
-- **Free forever**: no plans, no contact caps, no metering
-
-It is explicitly positioned as a Mautic alternative with AI-native capabilities [citation:9].
-**Best for:** Teams wanting a genuinely free, AI-native marketing automation platform with durable execution and multi-channel delivery, accepting a newer project than Mautic.
-
-### Tracardi
-**Stack:** Python / Docker | **License:** MIT with Common Clause
-Tracardi is an API-first, composable open-source **Customer Data Platform (CDP) engine** positioned as an alternative to Segment and RudderStack [citation:4]. Key capabilities include:
-- **Collect customer data** from multiple sources in real time
-- **Model customer data** with rules that copy data into user profiles
-- **Personalize user experience** with real-time frontend apps, customized messages, and marketing segmentation
-- **Unify profiles** by merging customer data from various sources
-- **Integrate internal systems** as a centralized communication and orchestration hub
-- **Social engagement** via bridges to e-commerce platforms
-
-**Important licensing note:** MIT with Common Clause, which restricts certain commercial uses [citation:4].
-**Best for:** Teams wanting to build a custom CDP foundation with full control over customer data collection, unification, and activation.
-
-### LEO CDP
-**Stack:** Python / Big Data / ML | **License:** Open Source
-LEO CDP is an open-source, AI-first Customer Data Platform framework for building customizable, self-hosted, privacy-friendly CDP infrastructure [citation:15]. Key capabilities include:
-- **Omnichannel data collection**: websites, mobile apps, CRM, POS, e-commerce, social media, APIs
-- **Real-time Customer 360**: behavioral, transactional, demographic, and engagement data
-- **AI-based segmentation**: RFM analysis, CLV, churn prediction, purchase propensity, lead scoring
-- **Behavioral tracking and journey mapping**
-- **Real-time audience activation** across marketing, sales, and advertising platforms
-- **Omnichannel personalization with Agentic AI & LLMs**: AI-generated content, next-best-action, dynamic journey orchestration
-- **Enterprise security**: consent management, RBAC, audit logs, multi-tenant, Docker/Kubernetes support
-
-**Best for:** Organizations wanting an AI-native CDP with predictive analytics and LLM-powered personalization, accepting a comprehensive Python/big-data stack.
-
-### Apache Unomi
-**Stack:** Java / Apache Karaf | **License:** Apache-2.0
-Apache Unomi is an open-source **customer data platform** for managing customer, lead, and visitor data [citation:12]. The City of Munich uses Unomi to personalize web content in Magnolia—for example, on stadt.muenchen.de—for specific user groups and to offer them personalized content tailored to their needs [citation:12]. It provides a REST API for managing profiles, segments, and events, with built-in privacy and consent management.
-**Best for:** Organizations wanting a proven, Apache-governed CDP for web personalization and segmentation, accepting a Java-based deployment.
-
-### Listmonk
-**Stack:** Go / PostgreSQL | **License:** AGPL-3.0
-Listmonk is a standalone, self-hosted **newsletter and mailing list manager** with a fast, clean interface. It supports multi-list management, custom subscriber attributes, segmentation, templates (HTML or Markdown), analytics, and transactional messaging via a REST API. It is designed for high-volume sending (millions of subscribers) with a single binary deployment and no external dependencies beyond PostgreSQL [citation:3]. It is explicitly **email-only**—no SMS, push, or journey builder.
-**Best for:** Organizations wanting a lightweight, high-performance newsletter platform with segmentation and templates, accepting that it is email-only.
+| Project | GitHub Stars | Primary Focus & Capabilities | Tech Stack | License |
+|:---|:---:|:---|:---|:---|
+| **[Twenty](https://twenty.com)** ([GitHub](https://github.com/twentyhq/twenty)) | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Open-source CRM & customer relationship orchestration alternative to Salesforce; custom objects, workflow triggers, and segmentation. | TypeScript, NestJS, React, PostgreSQL | AGPL-3.0 |
+| **[Novu](https://novu.co)** ([GitHub](https://github.com/novuhq/novu)) | [![Novu Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | Open-source notification infrastructure and customer communication engine across Email, SMS, In-App, Chat, and Web Push. | TypeScript, Node.js, React, Redis, MongoDB | MIT |
+| **[Chatwoot](https://www.chatwoot.com)** ([GitHub](https://github.com/chatwoot/chatwoot)) | [![Chatwoot Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Customer engagement suite with live chat, omnichannel conversational routing, pre-chat lead capture, and contact segmentation. | Ruby on Rails, Vue.js, PostgreSQL, Redis | AGPL-3.0 |
+| **[Listmonk](https://listmonk.app)** ([GitHub](https://github.com/knadh/listmonk)) | [![Listmonk Stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers) | High-performance, self-hosted newsletter and mailing campaign manager; manages millions of subscribers with fast multi-threading and transactional REST APIs. | Go, PostgreSQL | AGPL-3.0 |
+| **[Mautic](https://www.mautic.org)** ([GitHub](https://github.com/mautic/mautic)) | [![Mautic Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | The flagship open-source marketing automation platform; visual journey builder, lead scoring, multi-channel campaigns (email, web, SMS), and strict GDPR compliance. | PHP, Symfony, MySQL / MariaDB | GPL-3.0 |
+| **[GrowthBook](https://www.growthbook.io)** ([GitHub](https://github.com/growthbook/growthbook)) | [![GrowthBook Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | Open-source feature flagging and A/B experimentation platform for dynamic web/app personalization, conversion rate optimization (CRO), and Bayesian analysis. | TypeScript, Next.js, Node.js, Python | MIT |
+| **[Plunk](https://www.useplunk.com)** ([GitHub](https://github.com/useplunk/plunk)) | [![Plunk Stars](https://img.shields.io/github/stars/useplunk/plunk?style=social&color=white)](https://github.com/useplunk/plunk/stargazers) | Lightweight open-source email marketing automation platform; event-driven transactional emails, dynamic broadcast campaigns, and developer API. | TypeScript, Next.js, AWS SES | AGPL-3.0 |
+| **[RudderStack](https://www.rudderstack.com)** ([GitHub](https://github.com/rudderlabs/rudder-server)) | [![RudderStack Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | Open-source Customer Data Platform (CDP) core; enterprise event stream processing, real-time customer data routing, and identity stitching. | Go, Node.js, PostgreSQL | SSPL-1.0 |
+| **[Dittofeed](https://www.dittofeed.com)** ([GitHub](https://github.com/dittofeed/dittofeed)) | [![Dittofeed Stars](https://img.shields.io/github/stars/dittofeed/dittofeed?style=social&color=white)](https://github.com/dittofeed/dittofeed/stargazers) | Developer-friendly customer engagement and journey automation engine; version-controlled templates, event-triggered campaigns, and ClickHouse-backed segmentation. | TypeScript, Node.js, ClickHouse, PostgreSQL | MIT |
+| **[SendPortal](https://sendportal.io)** ([GitHub](https://github.com/mettle/sendportal)) | [![SendPortal Stars](https://img.shields.io/github/stars/mettle/sendportal?style=social&color=white)](https://github.com/mettle/sendportal/stargazers) | Open-source self-hosted email marketing software; subscriber segment management, campaign scheduling, message analytics, and integration with SES, Sendgrid & Postmark. | PHP, Laravel, MySQL | MIT |
+| **[Tracardi](https://tracardi.com)** ([GitHub](https://github.com/Tracardi/tracardi)) | [![Tracardi Stars](https://img.shields.io/github/stars/Tracardi/tracardi?style=social&color=white)](https://github.com/Tracardi/tracardi/stargazers) | API-first Customer Data Platform (CDP) and real-time behavioral orchestration engine; merges customer profiles and automates personalization rules. | Python, ElasticSearch / OpenSearch | MIT with Common Clause |
+| **[Apache Unomi](https://unomi.apache.org)** ([GitHub](https://github.com/apache/unomi)) | [![Apache Unomi Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers) | Apache Foundation customer data platform and web personalization server; OASIS Context Server specification reference implementation for user profiling. | Java, Apache Karaf, OpenSearch | Apache-2.0 |
+| **[Helio](https://github.com/achref-soua/helio)** ([GitHub](https://github.com/achref-soua/helio)) | [![Helio Stars](https://img.shields.io/github/stars/achref-soua/helio?style=social&color=white)](https://github.com/achref-soua/helio/stargazers) | AI-native open-source growth platform; visual React Flow journey builder, Temporal workflow orchestration, and multi-channel delivery (Email, SMS, WhatsApp). | TypeScript, Temporal, PostgreSQL, ClickHouse | AGPL-3.0 |
+| **[LEO CDP](https://leocdp.com)** ([GitHub](https://github.com/trieu/leo-cdp-framework)) | [![LEO CDP Stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers) | Open-source, AI-first Customer Data Platform framework; omnichannel identity resolution, RFM predictive segmentation, and LLM-powered personalization. | Java, Python, ArangoDB, Big Data | Open Source / Commercial |
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature Comparison Matrix
 
-| Software | License | Stack | Multi-Channel | Visual Journey Builder | Self-Hosted | Best For |
-|----------|---------|-------|---------------|------------------------|-------------|----------|
-| **HubSpot** | Proprietary | Cloud | ✅ | ✅ | ❌ | HubSpot CRM integration |
-| **ActiveCampaign** | Proprietary | Cloud | ✅ | ✅ | ❌ | Automation depth |
-| **Braze** | Proprietary | Cloud | ✅ | ✅ | ❌ | Enterprise cross-channel |
-| **Mautic** | GPL-3.0 | PHP/MySQL | ✅ Email/SMS/Notifications | ✅ Drag-and-drop | ✅ | Proven OSS + data sovereignty |
-| **Dittofeed** | Open Source | TypeScript | ✅ Low-code automation | ✅ Segmentation | ✅ | Developer-friendly engagement |
-| **Helio** | AGPL-3.0 | TypeScript/Temporal | ✅ Email/SMS/WhatsApp/Push | ✅ React Flow | ✅ | AI-native + free forever |
-| **Tracardi** | MIT + Clause | Python/Docker | (CDP engine) | (Via rules) | ✅ | Composable CDP foundation |
-| **LEO CDP** | Open Source | Python/Big Data | ✅ Omnichannel | ✅ Journey mapping | ✅ | AI-native CDP + LLM personalization |
-| **Apache Unomi** | Apache-2.0 | Java | (CDP) | (Segments) | ✅ | Web personalization + segmentation |
-| **Listmonk** | AGPL-3.0 | Go/Postgres | ❌ (Email only) | ❌ | ✅ | High-volume newsletters |
+| Solution | Deployment | Multi-Channel Support | Visual Journey Canvas | Real-Time CDP / Identity | Behavioral Personalization | Best Fit |
+|:---|:---:|:---:|:---:|:---:|:---:|:---|
+| **Marketo Engage** | Cloud (SaaS) | Email, Web, Mobile, Social | ✅ Yes | ✅ Enterprise | ✅ Lead Scoring / Dynamic Content | B2B Enterprise ABM & Long Sales Cycles |
+| **HubSpot** | Cloud (SaaS) | Email, SMS, Web, Social, Chat | ✅ Yes | ✅ Integrated CRM | ✅ Smart Content Rules | Scaling SMBs & Inbound Growth Teams |
+| **Klaviyo** | Cloud (SaaS) | Email, SMS, Push, Reviews | ✅ Yes | ✅ E-com CDP | ✅ Revenue Attribution & Product Feeds | DTC Brands & E-commerce Stores |
+| **Braze** | Cloud (SaaS) | Email, Push, In-App, SMS, Web | ✅ Canvas Flow | ✅ Real-Time | ✅ AI Predictive Engagement | High-Volume Consumer Apps & Mobile First |
+| **ActiveCampaign** | Cloud (SaaS) | Email, SMS, Web Messaging | ✅ Yes | ✅ Lightweight CRM | ✅ Dynamic Tags & Branching | SMBs Seeking Granular Logic at Low Cost |
+| **CleverTap** | Cloud (SaaS) | Push, In-App, WhatsApp, SMS | ✅ Journeys | ✅ Real-Time Mobile | ✅ Automated Micro-Segmentation | Mobile App Retention & Lifecycle Campaigns |
+| **Mautic** | Self-Hosted | Email, SMS, Web Notifications | ✅ Yes | ✅ Contact Database | ✅ Dynamic Web Content & Scoring | Data Sovereignty & Full-Featured MarTech |
+| **Twenty** | Self-Hosted / Cloud | Email, Messaging, Webhooks | ✅ Workflow Builder | ✅ Unified CRM Core | ✅ Custom Record Triggers | Open Alternative to Monolithic CRMs |
+| **Novu** | Self-Hosted / Cloud | Email, SMS, Push, In-App, Chat | ✅ Step Engine | ❌ (Notification Routing) | ✅ Subscriber Preferences & Digests | Engineering Teams Building In-App Comms |
+| **Listmonk** | Self-Hosted | Email (Transactional & Bulk) | ❌ No (Single Campaigns) | ❌ (Mailing Lists) | ✅ Templating & Custom Attributes | Blazing Fast Newsletter & Bulk Sending |
+| **GrowthBook** | Self-Hosted / Cloud | Web, Mobile, Server Experiments | ❌ (Experiment Engine) | ❌ (Warehouse Native) | ✅ Dynamic A/B Targeting & Overrides | Product Teams Optimizing Conversions |
+| **Dittofeed** | Self-Hosted / Cloud | Email, SMS, Push, Webhooks | ✅ Low-Code Canvas | ✅ ClickHouse Profiles | ✅ Event-Driven Behavioral Flows | Modern Git-First & Developer Growth Stacks |
+| **RudderStack** | Self-Hosted / Cloud | Event Routing to 200+ destinations | ❌ (Pipeline Router) | ✅ Real-Time Warehouse CDP | ✅ Data Activation & Identity Graphs | Composable Customer Data Infrastructure |
+| **Tracardi** | Self-Hosted | Multi-channel via bridges | ✅ Visual Logic Rules | ✅ API-First CDP | ✅ Real-Time Frontend Personalization | Custom Privacy-First Customer Data Fabric |
+| **SendPortal** | Self-Hosted | Email (Amazon SES, Postmark, etc.) | ❌ No (Campaign-based) | ❌ (Subscriber Lists) | ✅ Tag-based Audience Filtering | Self-Hosted Transactional & Newsletter Delivery |
+| **Apache Unomi** | Self-Hosted | Web, REST API | ❌ (Rules Engine) | ✅ OASIS Context Server | ✅ Web Content Tailoring | Public Sector & Enterprise Web Portals |
+| **Helio** | Self-Hosted | Email, SMS, WhatsApp, Web Push | ✅ React Flow + Temporal | ✅ Built-in CDP | ✅ AI Copilot & Conversion Scoring | Modern AI-Native Marketing Automation |
+
+---
+
+## 🎯 Key Selection Criteria
+
+When selecting between commercial SaaS platforms and open-source stacks, evaluate the following tradeoffs:
+
+1. **Total Cost of Ownership (TCO) vs. Engineering Overhead**:
+   - SaaS solutions charge steeply per active profile or Monthly Active User (e.g., $1,000s/mo as contacts cross 100k+).
+   - Open-source platforms eliminate contact caps and seat licenses, but require server infrastructure, database maintenance, bounce/spam IP reputation warming, and reliable worker queues (e.g., cron workers in Mautic or Temporal engines in Helio).
+
+2. **Data Privacy & Regulatory Sovereignty (GDPR / HIPAA / CCPA)**:
+   - Self-hosted options (Mautic, Tracardi, Apache Unomi, RudderStack) allow sensitive user data to remain strictly within your sovereign Virtual Private Cloud (VPC) or on-premise infrastructure.
+
+3. **Developer-First Integration vs. Marketer-First UI**:
+   - Marketer-led organizations typically prefer drag-and-drop, visual journey builders with pre-packaged integrations (HubSpot, ActiveCampaign, Klaviyo, Mautic).
+   - Product and engineering teams often prefer code-first, API-driven engines with version-controlled templates and Git workflows (Novu, Dittofeed, Plunk).
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Marketing Automation or Personalization tool that should be listed here, please open a pull request with:
+Contributions are very welcome! If you know of an outstanding open-source Marketing Automation tool, Personalization engine, or Customer Data Platform that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is source-available but not OSI-approved, as with Tracardi's Common Clause).
-
-**Note on the open-source ecosystem:** The marketing automation and personalization space is **led by Mautic** for maturity and adoption (10k+ stars, active weekly development, proven as a HubSpot alternative for early-stage founders [citation:3]). A newer generation of modern, developer-friendly platforms has emerged: **Dittofeed** offers low-code multi-channel automation with segmentation [citation:2], **Helio** provides an AI-native growth platform with durable execution and a free-forever model [citation:9], and **Tracardi** delivers a composable CDP foundation under an open architecture [citation:4]. For **personalization specifically**, **Apache Unomi** is a proven CDP used by the City of Munich for web content personalization [citation:12], while **LEO CDP** offers an AI-first CDP with predictive analytics and LLM-powered personalization [citation:15]. No single open-source project fully replicates Braze's enterprise-scale cross-channel orchestration, but these tools cover the core automation and personalization workflows for self-hosted deployments.
+1. Check that the project is actively maintained (commits within the last 12 months).
+2. Follow the table format and link directly to the GitHub repository.
+3. Open a Pull Request with a clear description of why the tool stands out.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) (Public Domain Dedication). Individual software platforms retain their own proprietary or open-source licenses.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  <sub>Maintained with ❤️ by the open-source community. If this list helped your marketing tech stack decisions, please star the repo! ⭐</sub>
+</p>
