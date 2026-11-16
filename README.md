@@ -8,7 +8,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Marketing-Automation-Personalization?style=social)](https://github.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Marketing-Automation-Personalization?style=social)](https://github.com/ishandutta2007/Awesome-Marketing-Automation-Personalization/stargazers)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
@@ -53,9 +53,9 @@ The table below lists leading commercial marketing automation and personalizatio
 
 ## 🟩 Open-Source Software 🔓
 
-Self-hosted, privacy-first, and community-driven tools for marketing automation, customer data platforms (CDP), web personalization, and transaction/campaign messaging. Sorted by GitHub community star count (descending). 🌟
+Self-hosted, privacy-first, and community-driven tools for marketing automation, customer data platforms (CDP), web personalization, and transaction/campaign messaging. Sorted by GitHub community Stars_Count (descending). 🌟
 
-| Project 🛠️ | GitHub Stars ⭐ | Primary Focus & Capabilities 🎯 | Tech Stack 💻 | License 📜 |
+| Project 🛠️ | GitHub_Stars ⭐ | Primary Focus & Capabilities 🎯 | Tech Stack 💻 | License 📜 |
 |:---|:---:|:---|:---|:---|
 | **[Twenty](https://twenty.com)** ([GitHub](https://github.com/twentyhq/twenty)) | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Open-source CRM & customer relationship orchestration alternative to Salesforce; custom objects, workflow triggers, and segmentation. | TypeScript, NestJS, React, PostgreSQL | AGPL-3.0 |
 | **[Novu](https://novu.co)** ([GitHub](https://github.com/novuhq/novu)) | [![Novu Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | Open-source notification infrastructure and customer communication engine across Email, SMS, In-App, Chat, and Web Push. | TypeScript, Node.js, React, Redis, MongoDB | MIT |
